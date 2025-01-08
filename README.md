@@ -20,3 +20,8 @@ sudo apt-get install -y nvidia-container-toolkit nvidia-docker2
 ### docker info | grep -i runtime
  Runtimes: io.containerd.runc.v2 nvidia runc
  Default Runtime: runc
+
+
+## Commands to interact with nvidia gpu
+## nvidia-smi -l 1
+# This will refresh the GPU usage statistics every second, showing memory usage, processes running on the GPU, and more
