@@ -25,3 +25,6 @@ sudo apt-get install -y nvidia-container-toolkit nvidia-docker2
 # Commands to interact with nvidia gpu
 # nvidia-smi -l 1
 This will refresh the GPU usage statistics every second, showing memory usage, processes running on the GPU, and more
+
+# Grafana Dashboard
+https://grafana.com/grafana/dashboards/12239-nvidia-dcgm-exporter-dashboard/
